@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Sidebar styles */
+.sidebar {
+  width: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #555;
+}
+
+/* Content styles */
+.content {
+  margin-left: 220px; /* Adjust according to sidebar width */
+  padding: 20px;
+}
+
+/* Hide all content sections by default */
+/* .content > div {
+  display: none;
+} */
+
+/* Show selected content section */
+/* .content > div:target {
+  display: block;
+} */
+
+/* Table styles */
+table {
+  border-collapse: collapse; /* Ensures table borders don't overlap */
+  width: 100%; /* Makes table fill available width */
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Adds borders to table cells */
+  padding: 8px; /* Adds padding to table cells */
+}
+
+th {
+  text-align: left; /* Aligns table headers to the left */
+}
